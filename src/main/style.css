@@ -1,0 +1,117 @@
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav {
+  background-color: #f3222c; 
+  top: 0;
+  width: 100%;
+}
+nav {
+  background: linear-gradient(to right, #f3226f 50%, #8ef322 50%);
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: rgb(0, 16, 22); 
+}
+
+nav a:hover {
+  background-color: #555; 
+}
+
+nav ul {
+  text-align: right; /* Changed from center to left */
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px; 
+}
+#logo-container img {
+  max-width: 100px; /* Adjust as needed */
+  height: auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #22d0f3;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: right; /* Ensure headings are also aligned left */
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=email],
+select, input[type=date], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: bold;
+}
+
+body {
+  background-image: url("education1.jpg");
+  background-color: #cccccc;
+}
+
+#logo-container {
+  margin-left: 20px; /* Adjust spacing between logo and other links */
+}
+
+#logo-container img {
+  max-width: 100px; /* Adjust as needed */
+  height: auto;
+}
